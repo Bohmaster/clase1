@@ -1,0 +1,30 @@
+{
+  "name": "pokemon",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "weight": {
+      "type": "number",
+      "required": true
+    },
+    "height": {
+      "type": "number",
+      "required": "true"
+    },
+    "extra": {
+      "type": "object",
+      "required": "false"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

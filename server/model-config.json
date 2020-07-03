@@ -42,5 +42,9 @@
   "product": {
     "dataSource": "db",
     "public": true
+  },
+  "pokemon": {
+    "dataSource": "db",
+    "public": true
   }
 }
